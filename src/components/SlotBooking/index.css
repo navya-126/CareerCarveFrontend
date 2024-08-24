@@ -1,0 +1,155 @@
+
+
+.slot-booking-container{
+    min-height: 100vh;
+    background-color: #000;
+   
+}
+.slot-card-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.slot-description{
+    width:50vw;
+    margin-right:20px;
+
+}
+.form-container{
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    box-shadow: 4px 4px 16px 8px #dfd7d7;
+    width: 450px;
+    height: 350px;
+    background-color: #ffffff;
+}
+
+.label-text{
+    font-weight:500;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #444;
+}
+.input-field{
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #444;
+}
+
+.submit-button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.submit-button:hover{
+    background-color: #45a049;
+    transition: background-color 0.3s ease;
+    box-shadow: 2px 2px 8px 0px #45a049;
+}
+.text-heading{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color:blue;
+}
+.text-description{
+    font-size: 18px;
+    color:#ccc;
+    margin-bottom: 20px;
+    max-width: 550px;
+}
+
+.mentor-name-container{
+    background-color: #ffffff;
+    width: 850px;
+    margin:auto;
+    padding: 20px; 
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    margin: 20px;
+    
+
+}
+
+.popup-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    font-size: 12px;
+  }
+  .modal > .header {
+    width: 100%;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+  }
+  .modal > .content {
+    width: 100%;
+    padding: 10px 5px;
+  }
+  .modal > .actions {
+    width: 100%;
+    padding: 10px 5px;
+    margin: auto;
+    text-align: center;
+  }
+  .modal > .close {
+    align-self: flex-end;
+    cursor: pointer;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -10px;
+    top: -10px;
+    font-size: 24px;
+    background: #ffffff;
+    border-radius: 18px;
+    border: 1px solid #cfcece;
+   
+  }
+  
+  .label-text-booking{
+    font-weight:700;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #ffffff;
+
+
+  }
